@@ -80,4 +80,4 @@ def get_e(message): #получаем количество дефектов
         bot.register_next_step_handler(message, get_e)
 
 
-bot.polling(none_stop=True, interval=0)
+bot.infinity_polling(none_stop=True, interval=0)
